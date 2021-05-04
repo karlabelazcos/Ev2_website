@@ -1,0 +1,80 @@
+nav a:link ,nav a:visited{
+    background-color: #e84545;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+ nav a:hover ,nav a:active{
+    background-color: #5f939a;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+nav a {
+    display: block;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+nav ul li {
+    float:left;
+    width: 20%;
+}
+
+body{
+    background-color: burlywood;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+form{
+    width: 450px;
+    margin:auto;
+    background-color: cadetblue;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h1{
+    display: inline-block;
+    position: relative;
+    color:brown ;
+    font-family: cursive;
+}
+
+
+h1::after,h1::before{
+    content:'';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color:brown;
+    top: 0.6px;
+}
+
+
+h1::before{
+    left: -140px;
+}
+
+
+h1::after{
+    right: -140px;
+} 
+
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+

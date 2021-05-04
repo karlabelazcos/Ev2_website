@@ -1,0 +1,75 @@
+header nav a:link , header nav a:visited{
+    background-color: #e84545;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+
+header nav a:hover , header nav a:active{
+    background-color: #5f939a;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+
+nav a {
+    display: block;
+}
+
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+
+nav ul li {
+    float:left;
+    width: 20%;
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    gap: 2em;
+    grid-template-areas: "header header"
+                          "main sidebar"
+                          "address address";
+}
+
+main{
+    grid-area: main;
+}
+
+
+header{
+    grid-area: header;
+}
+
+
+aside{
+    grid-area: sidebar;
+    background-color: royalblue;
+}
+body{
+    background-color:lightseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer{
+    background-color: coral;
+}
+
+
+address{
+    grid-area: sidebar;
+    background-color: rosybrown;
+}
+
+
